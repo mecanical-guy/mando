@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+	int random_box;
+	int a = 1;
+	int b = 2;
+	int c = 3;
+
+	printf("랜덤박스입니다! 1,2,3 중 하나를 선택해주세요 : ");
+	scanf("%d", &random_box);
+
+	if (random_box == a) {
+		printf("당신은 지성과 미모를 갖춘 여성과 조만간 사귀게 될것입니다.");
+	}
+	else if (random_box == b) {
+		printf("당신은 로또 1등에 당첨됩니다. \n");
+	}
+	else (random_box == c); {
+		printf("당신은 군대를 다녀왔지만 다시 가게됩니다. \n");
+	}
+	return 0;
+}
